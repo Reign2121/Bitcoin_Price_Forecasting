@@ -1,1 +1,3 @@
-# -DACON-Bitcoin_Price_Forecasting
+# [DACON]
+
+Bitcoin_Price_Forecasting
