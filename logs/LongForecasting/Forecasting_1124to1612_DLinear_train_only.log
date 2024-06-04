@@ -1,0 +1,6 @@
+Args in experiment:
+Namespace(is_training=0, train_only=True, model_id='DLinear_1124to1612_train_only', model='DLinear', data='custom', root_path='/home/sgh/yes/envs/DACON/4rd_Bitcoin_price_tsf/data/', data_path='train.csv', features='M', target='Close', freq='h', checkpoints='./checkpoints/', seq_len=1124, label_len=48, pred_len=1612, individual=False, embed_type=0, enc_in=8, dec_in=7, c_out=7, d_model=512, n_heads=8, e_layers=2, d_layers=1, d_ff=2048, moving_avg=25, factor=1, distil=True, dropout=0.05, embed='timeF', activation='gelu', output_attention=False, do_predict=0, num_workers=10, itr=1, train_epochs=10, batch_size=8, patience=3, learning_rate=0.0005, des='Exp', loss='mse', lradj='type1', use_amp=False, use_gpu=True, gpu=0, use_multi_gpu=False, devices='0', test_flop=False)
+Use GPU: cuda:0
+>>>>>>>predicting : DLinear_1124to1612_train_only_DLinear_custom_ftM_sl1124_ll48_pl1612_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+pred 1
+Forecasting Done

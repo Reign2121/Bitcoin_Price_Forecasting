@@ -1,0 +1,53 @@
+Args in experiment:
+Namespace(is_training=1, train_only=True, model_id='256to1512_Autoformer', model='Autoformer', data='custom', root_path='/home/sgh/yes/envs/DACON/(4rd)Bitcoin_price_tsf/', data_path='train.csv', features='M', target='Close', freq='h', checkpoints='./checkpoints/', seq_len=256, label_len=128, pred_len=1512, individual=False, embed_type=0, enc_in=9, dec_in=9, c_out=9, d_model=512, n_heads=8, e_layers=2, d_layers=1, d_ff=2048, moving_avg=25, factor=3, distil=True, dropout=0.05, embed='timeF', activation='gelu', output_attention=False, do_predict=0, num_workers=10, itr=1, train_epochs=1, batch_size=16, patience=3, learning_rate=0.0001, des='Exp', loss='mse', lradj='type1', use_amp=False, use_gpu=True, gpu=0, use_multi_gpu=False, devices='0', test_flop=False)
+Use GPU: cuda:0
+>>>>>>>start training : 256to1512_Autoformer_Autoformer_custom_ftM_sl256_ll128_pl1512_dm512_nh8_el2_dl1_df2048_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 36434
+	iters: 100, epoch: 1 | loss: 0.3678741
+	speed: 0.1902s/iter; left time: 414.2325s
+	iters: 200, epoch: 1 | loss: 0.6805165
+	speed: 0.1731s/iter; left time: 359.6202s
+	iters: 300, epoch: 1 | loss: 0.5700105
+	speed: 0.1732s/iter; left time: 342.6728s
+	iters: 400, epoch: 1 | loss: 0.5760591
+	speed: 0.1734s/iter; left time: 325.5909s
+	iters: 500, epoch: 1 | loss: 0.5152192
+	speed: 0.1736s/iter; left time: 308.7334s
+	iters: 600, epoch: 1 | loss: 0.4963846
+	speed: 0.1737s/iter; left time: 291.4798s
+	iters: 700, epoch: 1 | loss: 0.3251145
+	speed: 0.1738s/iter; left time: 274.2745s
+	iters: 800, epoch: 1 | loss: 0.3063239
+	speed: 0.1738s/iter; left time: 256.8826s
+	iters: 900, epoch: 1 | loss: 0.3244727
+	speed: 0.1737s/iter; left time: 239.3244s
+	iters: 1000, epoch: 1 | loss: 0.2276012
+	speed: 0.1737s/iter; left time: 222.0509s
+	iters: 1100, epoch: 1 | loss: 0.5668700
+	speed: 0.1738s/iter; left time: 204.7194s
+	iters: 1200, epoch: 1 | loss: 0.2876275
+	speed: 0.1738s/iter; left time: 187.3799s
+	iters: 1300, epoch: 1 | loss: 0.2051880
+	speed: 0.1738s/iter; left time: 169.9652s
+	iters: 1400, epoch: 1 | loss: 0.4191485
+	speed: 0.1738s/iter; left time: 152.6228s
+	iters: 1500, epoch: 1 | loss: 0.4864369
+	speed: 0.1738s/iter; left time: 135.2409s
+	iters: 1600, epoch: 1 | loss: 0.3471431
+	speed: 0.1738s/iter; left time: 117.8176s
+	iters: 1700, epoch: 1 | loss: 0.4956332
+	speed: 0.1737s/iter; left time: 100.4079s
+	iters: 1800, epoch: 1 | loss: 0.1904735
+	speed: 0.1738s/iter; left time: 83.0721s
+	iters: 1900, epoch: 1 | loss: 0.5483497
+	speed: 0.1738s/iter; left time: 65.6992s
+	iters: 2000, epoch: 1 | loss: 0.5822619
+	speed: 0.1738s/iter; left time: 48.3240s
+	iters: 2100, epoch: 1 | loss: 0.3664991
+	speed: 0.1739s/iter; left time: 30.9487s
+	iters: 2200, epoch: 1 | loss: 0.3609192
+	speed: 0.1738s/iter; left time: 13.5574s
+Epoch: 1 cost time: 397.30639243125916
+Epoch: 1, Steps: 2277 | Train Loss: 0.4633168
+Validation loss decreased (inf --> 0.463317).  Saving model ...
+Updating learning rate to 0.0001
